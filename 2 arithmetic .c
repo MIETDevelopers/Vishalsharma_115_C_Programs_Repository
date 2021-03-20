@@ -13,13 +13,13 @@ int main() // main program starts
    add = first + second;//formula
    subtract = first - second;//formula
    multiply = first * second;//formula
-   divide =   first / second;//formula
+   divide =  (float) first / second;//formula
    
 
    printf("Sum = %d\n", add);//printing sum of two numbers
    printf("Difference = %d\n", subtract);//printing difference of two numbers
    printf("Multiplication = %d\n", multiply);//print multiplication of two numbers
-   printf("Division = %f\n" , divide);//doubt
+   printf("Division = %f\n" ,(float) divide);//doubt
    
  
    return 0;//return statement
